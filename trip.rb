@@ -20,6 +20,6 @@ nights = gets.chomp.capitalize
 # Lastly, puts it all back by interpolating these values in a string.
 
 puts "You would like to stay #{stay}"
-puts "You would like to eat #{eat}"
+puts "You would like to eat #{eat.downcase}"
 puts "You would like to stay #{nights} nights"
 
